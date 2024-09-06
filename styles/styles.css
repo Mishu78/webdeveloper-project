@@ -10,6 +10,7 @@ nav {
   display: flex;
  align-items: center;
  justify-content: space-between;
+ padding:0px 200px;
 
 }
 
@@ -21,6 +22,7 @@ nav {
   line-height: 61px;
 letter-spacing: 0%;
 text-align: left;
+
 }
 
 .text-primary{
@@ -30,12 +32,13 @@ text-align: left;
 .button-primary{
   border-radius: 5px;
 background: rgb(253, 110, 10);
-font-size: 20px;
+font-size: 15px;
 font-weight: 700;
 color: rgb(255, 255, 255);
 padding:15px 35px;
 border:0;
-width: 150px;
+width: 180px;
+height:60px
 }
 
 nav>ul {
@@ -52,4 +55,24 @@ nav li{
 nav a{
   text-decoration: none;
   color: rgb(71, 71, 71);
+}
+
+.header{
+  background-color: rgb(255, 248, 243);
+}
+
+.banner{
+  padding: 161px 30px 30px 150px;
+  display:flex;
+  align-items: center;
+}
+
+.banner .banner-picture{
+  
+  width: 584px;
+height: 676px;
+left: 978px;
+right: 38px;
+top: 161px;
+bottom: 3419px;
 }
