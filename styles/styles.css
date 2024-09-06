@@ -250,15 +250,31 @@ margin-top:0px;
   margin:50px;
 }
 
+.social-links a{
+  margin-right: 25px;
+}
+
 footer{
 display:flex;
+gap: 80px;
 background-color: rgb(249, 239, 231);
 padding:130px 230px;
 margin-top:113px;
 }
 
- .section-description{
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
+.footer-column{
+  width:50%;
+}
+
+
+ .contact input[type="text"],.contact input[type="email"],textarea{
+  display:block;
+  margin-bottom:25px;
+  padding:18px 349px 18px 30px;
+  color:rgb(117, 117, 117);
+  border-radius: 5px;
+background: rgb(255, 255, 255);
+border:0px;
+width: 50%;
+
  }
