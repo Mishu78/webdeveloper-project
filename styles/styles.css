@@ -59,14 +59,21 @@ nav a{
 
 .header{
   background-color: rgb(255, 248, 243);
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner{
-  padding: 161px 30px 30px 150px;
+  padding: 161px 30px 0px 150px;
   display:flex;
   align-items: center;
+  justify-content: space-between;
 }
 
+.banner-content{
+  max-width: 500px;
+}
 .banner .banner-picture{
   
   width: 584px;
@@ -75,4 +82,72 @@ left: 978px;
 right: 38px;
 top: 161px;
 bottom: 3419px;
+}
+
+.banner-greeting{
+  font-size: 45px;
+font-weight: 600;
+line-height: 61px;
+color: rgb(71, 71, 71);
+margin-bottom: 0px;
+}
+
+
+.banner-title{
+  color: rgb(24, 24, 24);
+  font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom:20px;
+
+}
+
+.banner-description{
+color: rgb(117, 117, 117);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+
+margin-top: 0;
+margin-bottom:30px
+}
+
+.about{
+padding:131px 156px 135px 157px;
+border-radius: 10px;
+background: rgb(255, 248, 243);
+margin:130px 230px 130px 230px;
+}
+
+.section-title{
+  color: rgb(24, 24, 24);
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.section-description{
+  color: rgb(117, 117, 117);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+main{
+max-width: 1500px;
+margin:0 auto;
+}
+
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info{
+  text-align: center;
 }
